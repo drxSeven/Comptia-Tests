@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(184, 144, 234);
+  background: linear-gradient(
+    270deg,
+    rgb(167, 114, 233) 2%,
+    rgb(241, 204, 130) 52%,
+    rgb(236, 142, 177) 100%
+  );
+}
+
+a {
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 121px;
+  background: #fbede0;
+  font-family: "Rowdies", cursive;
+  border-bottom: black solid 2px;
+}
+.logo {
+  margin-top: 35px;
+  margin-left: 35px;
+  font-size: xx-large;
+  text-decoration: none;
+}
+.nav-right {
+  margin-top: 35px;
+  font-size: x-large;
+  padding-right: 15px;
+}
+.r {
+  padding-right: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.home-box {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.home-box > .title {
+  font-size: xx-large;
+  text-align: center;
+  font-family: "Rowdies", cursive;
+}
+
+.p-box {
+  background: #fbede0;
+  border: black solid 2px;
+  border-radius: 31px;
+  width: 40vw;
+  height: 50vh;
+  margin: 20px 10px;
+  padding: 1.5vw;
+}
+
+.p-box {
+  font-size: xx-large;
+  list-style: none;
+}
+
+.button {
+  background: #8a63bd;
+  padding: 15px 25px;
+  margin-top: 10px;
+  font-size: larger;
+  font-family: "Rowdies", cursive;
+  border: 2px solid #000000;
+  box-shadow: 0px 4px 0px #000000;
+  border-radius: 14px;
+  text-decoration: none;
+}
